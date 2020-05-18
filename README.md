@@ -14,7 +14,7 @@
 |                      | spring-boot-swagger         | SpringBoot集成swagger            |
 |                      | spring-boot-aop             | SpringBoot aop                   |
 |                      | spring-boot-validate        | SpringBoot参数校验               |
-|                      | spring-boot-exception       | SpringBoot同一异常处理           |
+|                      | spring-boot-exception       | SpringBoot统一异常处理           |
 | SpringBoot之数据访问 | spring-boot-mybatis         | SpringBoot集成MyBatis            |
 |                      | spring-boot-mybatis-plus    | SpringBoot集成MyBatisPlus        |
 |                      | spring-boot-jedis           | SpringBoot集成Jedis              |
