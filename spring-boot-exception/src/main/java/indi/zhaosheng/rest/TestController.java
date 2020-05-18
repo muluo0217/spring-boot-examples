@@ -2,7 +2,7 @@ package indi.zhaosheng.rest;
 
 import indi.zhaosheng.RespResult;
 import indi.zhaosheng.exceptin.ErrorCodeEnum;
-import indi.zhaosheng.exceptin.MyExceptionFactorty;
+import indi.zhaosheng.exceptin.MyExceptionFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,6 +34,6 @@ public class TestController {
 
     @GetMapping("/err2")
     public RespResult<Void> err2() {
-        throw MyExceptionFactorty.create(ErrorCodeEnum.ILLEGAL_PARAM);
+        throw MyExceptionFactory.create(ErrorCodeEnum.ILLEGAL_PARAM);
     }
 }

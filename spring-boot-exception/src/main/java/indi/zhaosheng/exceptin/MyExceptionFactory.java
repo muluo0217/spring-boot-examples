@@ -5,9 +5,9 @@ package indi.zhaosheng.exceptin;
  * @description
  * @date 2020/5/18 22:02
  */
-public class MyExceptionFactorty {
+public class MyExceptionFactory {
 
-    private MyExceptionFactorty() {
+    private MyExceptionFactory() {
     }
 
     public static MyException create(String code, String msg) {
