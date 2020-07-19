@@ -3,6 +3,7 @@ package indi.zhaosheng.transaction.po;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
@@ -14,6 +15,7 @@ import java.time.LocalDateTime;
 @Setter
 @Getter
 @TableName("tb_user_info")
+@Component
 public class UserInfoPo {
 
     private Long id;
